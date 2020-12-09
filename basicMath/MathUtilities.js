@@ -2,19 +2,23 @@ class MathUtilities {
 
 
     add(baseValue, valueToAdd){
-        return -1;
+        let sum = baseValue + valueToAdd;
+        return sum;
     }
 
     subtract(baseValue, valueToAdd){
-        return -1;
+        let remainder = baseValue - valueToAdd;
+        return remainder;
     }
 
     divide(baseValue, valueToAdd){
-        return -1;
+        let dividend = baseValue / valueToAdd;
+        return dividend;
     }
 
     multiply(baseValue, valueToAdd){
-        return -1;
+        let product = baseValue * valueToAdd;
+        return product;
     }
 }
 

@@ -1,11 +1,12 @@
 class StrangerStrings {
 
     getHelloWorld(){
-        return null;
+        return "Hello World";
     }
 
     concatenation(firstSegment, secondSegment){
-        return null;
+       return "Wutang" + " Forever";
+        
     }
 
     getPrefix(input){
