@@ -6,31 +6,35 @@ class StrangerStrings {
 
     concatenation(firstSegment, secondSegment){
        return "Wutang" + " Forever";
-        
     }
 
     getPrefix(input){
-        return null;
+        return input.substring(0, 3);
     }
 
     getSuffix(input){
-        return null;
+        return input.slice(-3);
     }
 
-    getMiddleCharacter(input){
-        return null;
+    getMiddleCharacter(inputValue){
+        let i = Math.floor(inputValue.length) / 2;
+        return inputValue[i];
     }
 
     getFirstWord(input){
-        return null;
+        let first= input.split(" ")
+        return first[0];
     }
     
     getSecondWord(spaceDelimnatedInput){
-        return null;
+        let second = spaceDelimnatedInput.split(" ")
+        return second[1];
     }
     
     reverse(input){
-        return null;
+        for(let i = 1; input.length  1; i--){
+            return input;
+        };
     }
 }
 
