@@ -36,6 +36,5 @@ class StrangerStrings {
             return input;
         };
     }
-}
 
 module.exports = StrangerStrings;
